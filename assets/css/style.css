@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+	background:url("../images/castle.jpg");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	font-family: 'WaltographRegular'; 
+
+}
+
+h1 {
+	font-size:1000%;
+	margin-top:5px;
+	margin-bottom: 20px;
+	color:grey;
+	text-shadow:3px 3px 3px white;
+	 
+}
+
+#start {
+	margin-top:150px;
+	font-size:750%;
+	background:none;
+	border-color:#ff6699;
+	color:#ff6699;
+	text-shadow:3px 3px 3px white;
+	cursor:pointer;
+}
+
+#restart {
+	font-size:750%;
+	margin-top:100px;
+	background:none;
+	border-color:#ff6699;
+	color:#ff6699;
+	text-shadow:3px 3px 3px white;
+	cursor:pointer;
+}
+
+#timer {
+	font-size:500%;
+	color:red;
+	text-shadow:3px 3px 3px black;
+}
+
+p {
+	font-size:175%;
+	margin-top:20px;
+	font-weight:bold;
+	color:#ff9933;
+	text-shadow:1px 1px 1px black;
+}
+
+.questions {
+	font-size:225%;
+	color:white;
+	text-shadow: 1px 1px 0 black;
+}
+
+#done {
+	margin-top:30px;
+	margin-bottom:5px;
+	font-size:500%;
+	background:none;
+	border-color:#ff6699;
+	color:#ff6699;
+	text-shadow:3px 3px 3px white;
+	cursor:pointer;
+
+}
+
+#results {
+	margin-top:100px;
+}
+

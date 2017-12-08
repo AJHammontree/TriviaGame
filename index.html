@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	
+<head>    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Disney Trivia Game </title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/waltograph" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title> Disney Trivia Game </title>
+
+</head>
+
+	<body>
+
+		<header id = "main-header">
+			<div class = "container">
+
+				<h1> DISNEY TRIVIA GAME </h1>
+
+			</div>
+		</header>
+
+		<button id = "start">START</button>
+
+		<div id = "timer">
+			<h2>Time Remaining: <span id = "time-remaining">120</span> </h2>
+		</div>
+
+	<div id = "quiz">
+		<div class = "questions">
+			<form class = "formFields">
+		
+			<p> What is the name of the baboon in The Lion King?</p> 
+			 	<br>
+			<input type = "radio" name = "q1" value = "a" id = "q1a" data-type="0"> Safiki 
+			<input type = "radio" name = "q1" value = "b" id = "q1b" data-type="1"> Rafiki 
+			<input type = "radio" name = "q1" value = "c" id = "q1c" data-type="0"> Nafiki 
+			<input type = "radio" name = "q1" value = "d" id = "q1d" data-type="0"> Tafiki 
+			</form>
+		</div> 
+
+		<div class = "questions">
+			<form class = "formFields">
+
+			 <p>In Aladdin, where does Aladdin find the Genie's lamp? </p>
+			 	<br>
+			<input type = "radio" name = "q2" value = "a" id = "q2a" data-type="0"> Cave of dreams 
+			<input type = "radio" name = "q2" value = "b" id = "q2b" data-type="0"> Cave of diamonds 
+			<input type = "radio" name = "q2" value = "c" id = "q2c" data-type="1"> Cave of wonders 
+			<input type = "radio" name = "q2" value = "d" id = "q2d" data-type="0"> Cave of magic 
+			</form>
+		</div>
+
+		<div class = "questions">
+			<form class = "formFields">
+
+			<p>What pionsoned fruit does the evil queen give Snow White? </p>
+			 	<br>
+			<input type = "radio" name = "q3" value = "a" id = "q3a" data-type="1"> Apple 
+			<input type = "radio" name = "q3" value = "b" id = "q3b" data-type="0"> Orange 
+			<input type = "radio" name = "q3" value = "c" id = "q3c" data-type="0"> Banana 
+			<input type = "radio" name = "q3" value = "d" id = "q3d" data-type="0"> Pear 
+			</form>
+		</div>
+
+		<div class = "questions">
+			<form class = "formFields">		
+
+			<p> Who trained Hercules to be a hero? </p>
+			 	<br>
+			<input type = "radio" name = "q4" value = "a" id = "q4a" data-type="0"> Bob 
+			<input type = "radio" name = "q4" value = "b" id = "q4b" data-type="0"> Harry 
+			<input type = "radio" name = "q4" value = "c" id = "q4c" data-type="0"> Toby 
+			<input type = "radio" name = "q4" value = "d" id = "q4d" data-type="1"> Phil 
+			</form>
+		</div>
+
+		<div class = "questions">
+			<form class = "formFields">
+		
+
+			<p>Who is the man who wants to marry Belle in The Beauty and the Beast? </p>
+			 	<br>			
+			<input type = "radio" name = "q5" value = "a" id = "q5a" data-type="0"> George 
+			<input type = "radio" name = "q5" value = "b" id = "q5b" data-type="1"> Gaston 
+			<input type = "radio" name = "q5" value = "c" id = "q5c" data-type="0"> Rupert 
+			<input type = "radio" name = "q5" value = "d" id = "q5d" data-type="0"> Adamo 
+			</form>
+		</div>
+	
+		<div class = "questions">
+			<form class = "formFields">
+
+			<p> In Tarzan, how did Jane, Porter, and Clayton get to the jungle?</p>
+			 	<br>			
+			<input type = "radio" name = "q6" value = "a" id = "q6a" data-type="0"> Airplane 
+			<input type = "radio" name = "q6" value = "b" id = "q6b" data-type="0"> Bus 
+			<input type = "radio" name = "q6" value = "c" id = "q6c" data-type="0"> Train 
+			<input type = "radio" name = "q6" value = "d" id = "q6d" data-type="1"> Ship 
+			</form>
+		</div>
+	
+
+		<div class = "questions">
+			<form class = "formFields">
+
+			<p>In Toy Story, who owns Woody?</p>
+			 	<br>	
+			<input type = "radio" name = "q7" value = "a" id = "q7a" data-type="1"> Andy 
+			<input type = "radio" name = "q7" value = "b" id = "q7b" data-type="0"> Henry 
+			<input type = "radio" name = "q7" value = "c" id = "q7c" data-type="0"> Billy
+			<input type = "radio" name = "q7" value = "d" id = "q7d" data-type="0"> David 
+			</form>
+		</div>
+		
+
+		<div class = "questions">
+			<form class = "formFields">
+
+		 	<p>In The Little Mermaid, what city does Ariel live in?</p>
+		 				 	<br>		
+			<input type = "radio" name = "q8" value = "a" id = "q8a" data-type="0"> Triontica 
+			<input type = "radio" name = "q8" value = "b" id = "q8b" data-type="0"> Melondontica 
+			<input type = "radio" name = "q8" value = "c" id = "q8c" data-type="1"> Atlantica 
+			<input type = "radio" name = "q8" value = "d" id = "q8d" data-type="0"> Mermaiontica 
+			</form>
+		</div>
+		
+
+		<div class = "questions">
+			<form class = "formFields">
+
+		 	<p>What is Cinderella's slipper made out of?</p>
+			 	<br>			
+			<input type = "radio" name = "q9" value = "a" id = "q9a" data-type="0"> Silk 
+			<input type = "radio" name = "q9" value = "b" id = "q9b" data-type="0"> Wood
+			<input type = "radio" name = "q9" value = "c" id = "q9c" data-type="0"> Fur 
+			<input type = "radio" name = "q9" value = "d" id = "q9d" data-type="1"> Glass 
+			</form>
+		</div>
+		
+
+		<div class = "questions">
+			<form class = "formFields">
+
+		 	<p>In The Hunchback of Notre Dame, who is Frollo responsible of raising?</p>
+			 	<br>		
+			<input type = "radio" name = "q10" value = "a" id = "q10a" data-type="0">Esmerelda
+			<input type = "radio" name = "q10" value = "b" id = "q10b" data-type="1"> Quasimodo 
+			<input type = "radio" name = "q10" value = "c" id = "q10c" data-type="0"> Phoebus 
+			<input type = "radio" name = "q10" value = "d" id = "q10d" data-type="0"> The Gypsies 
+			</form>
+		</div>
+		
+
+	</div>
+
+		<button id = "done">DONE!</button>
+
+		<div id = "results">
+
+			<p> Correct Answers: <span id = "correctAnswers">0</span> </p>
+
+			<p> Incorrect Answers: <span id = "wrongAnswers">0</span> </p>
+
+			<p> Unanswered: <span id = "Unanswered">10</span> </p>
+
+		</div>
+
+		<button id = "restart">RESTART</button>
+
+	</body>
+</html>
+
+
+	
+
